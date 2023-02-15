@@ -35,7 +35,7 @@ if ($retval) {
   </head>
   <body>
 <h2>Spoof Email</h2>
-<form action="/send.php" method="post" id="emailform">
+<form action="/mail.php" method="post" id="emailform">
      <label for="to">To:</label><br>
      <input type="text" id="to" name="to"><br><br>
      <label for="from">From:</label><br>
